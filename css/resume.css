@@ -23,14 +23,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 500;
   color: #343a40;
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 5.5rem;
 }
 
@@ -43,15 +42,18 @@ h3 {
 }
 
 p.lead {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
+p {
+  font-size: 1.15rem;
+}
 .subheading {
   text-transform: uppercase;
-  font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.2rem;
 }
 
 .social-icons a {
@@ -72,7 +74,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: #f07437;
 }
 
 .dev-icons {
@@ -80,7 +82,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #f07437;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -176,17 +178,26 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #755086 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #755086 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #f07437;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #f07437;
+}
+
+.section-image {
+  width: 100%;
+  height: 100%;
+}
+
+.column-space {
+  padding-right: 40px;
 }
